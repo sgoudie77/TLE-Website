@@ -5,10 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Level English</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- navbar starts here -->
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="img/tle-logo.png" alt="TLE Logo"></a>
+            <h3>Top Level English</h3>
+        </div>
+        <!-- <div class="toggle" onclick="toggleMenu();"></div> -->
+        <div class="navbar">
+            <ul class="navigation">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#home" onclick="toggleMenu();">About</a></li>
+                <li><a href="#home" onclick="toggleMenu();">Courses</a></li>
+                <li><a href="#home" onclick="toggleMenu();">FAQs</a></li>
+                <li><a href="#home" onclick="toggleMenu();">Blog</a></li>
+                <li><a href="#home" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar ends here -->
+
+    <!-- hero section starts here -->
+    <div class="container" id="home-hero">
+        <div id="home-hero-text">
+            <h1>Top Level English</h1>
+            <h2>Take Your English To The Next Level</h2>
+            <!-- <h3>Learn Anywhere. Learn Anytime.</h3> -->
+            <a href="#home-info">Learn More</a>
+        </div>
+        <div class="home-social">
+            <!-- <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-square" aria-hidden="true"></i> -->
+            <i class="fa-brands fa-facebook"></i>
+            <!-- <i class="fa-brands fa-twitter"></i> -->
+            <i class="fa-brands fa-wordpress"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+    </div>
+    <!-- hero section ends here -->
+
+    <!-- info section starts here -->
+    <div class="container" id="home-info">
+        <div id="info-wrapper">
+            <div class="info-box" id="info-left">
+                <h3>Welcome to TLE!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus maxime necessitatibus saepe officia, iste natus excepturi aut delectus. Deleniti voluptates molestiae nobis aliquam reprehenderit eligendi ut vel, odit ipsam. Aliquam quidem natus qui quia veritatis, voluptatibus placeat eius deserunt exercitationem alias, similique nemo harum id accusamus aspernatur iusto voluptates accusantium labore dicta cum minus nesciunt eligendi dolorem suscipit. Aliquid, doloremque quis cupiditate omnis quia corrupti, perferendis rem amet dignissimos, fugit deserunt! Sit eum rerum adipisci.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus maxime necessitatibus saepe officia, iste natus excepturi aut delectus. Deleniti voluptates molestiae nobis aliquam reprehenderit eligendi ut vel, odit ipsam. Aliquam quidem natus qui quia veritatis, voluptatibus placeat eius deserunt exercitationem alias, similique nemo harum id accusamus aspernatur iusto voluptates accusantium labore dicta cum minus nesciunt eligendi dolorem suscipit. Aliquid, doloremque quis cupiditate omnis quia corrupti, perferendis rem amet dignissimos, fugit deserunt! Sit eum rerum adipisci.</p>
+                <a href="#categories">Learn More</a>
+            </div>
+            <div class="info-box" id="info-right">
+            </div>
+        </div>
+    </div>
+    <!-- info section ends here -->
+
+    <!-- categories section starts here -->
+    <div class="container" id="categories">
+        <!-- <h2>categories</h2> -->
+        <div class="categories-wrapper">
+            <div class="category-item" id="cat1">
+                <h3>About TLE</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi excepturi velit quibusdam fuga magni recusandae? Ea iure laudantium sequi ab.</p>
+            </div>
+            <div class="category-item" id="cat2">
+                <h3>Courses</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi excepturi velit quibusdam fuga magni recusandae? Ea iure laudantium sequi ab.</p>
+            </div>
+            <div class="category-item" id="cat3">
+                <h3>Blog</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi excepturi velit quibusdam fuga magni recusandae? Ea iure laudantium sequi ab.</p>
+            </div>
+            <div class="category-item" id="cat4">
+                <h3>FAQs</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi excepturi velit quibusdam fuga magni recusandae? Ea iure laudantium sequi ab.</p>
+            </div>
+            <div class="category-item" id="cat5">
+                <h3>Social Media</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi excepturi velit quibusdam fuga magni recusandae? Ea iure laudantium sequi ab.</p>
+            </div>
+            <div class="category-item" id="cat6">
+                <h3>Contact</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi excepturi velit quibusdam fuga magni recusandae? Ea iure laudantium sequi ab.</p>
+            </div>
+        </div>
+    </div>
+    <!-- categories section ends here -->
+
+    <!-- news section starts here -->
+    <div class="container" id="news-area">
+        <h2>TLE News</h2>
+    </div>
+    <!-- news section ends here -->
+
+    <!-- blog and social section starts here -->
+    <div class="container" id="social-area">
+        <h2>TLE Blogs and Social Media</h2>
+    </div>
+    <!-- blog and social section ends here -->
+
+    <!-- testimonials section starts here -->
+    <div class="container" id="testimonials">
+        <h2>testimonials</h2>
+        <div class="client-icons">
+            <img src="img/client-ford.png" alt="">
+            <!-- <img src="img/client-apple.png" alt=""> -->
+            <!-- <img src="img/client-general-motors.png" alt=""> -->
+            <img src="img/client-hp.png" alt="">
+            <img src="img/client-hyundai.png" alt="">
+            <img src="img/client-kia.png" alt="">
+            <img src="img/client-lg.png" alt="">
+            <img src="img/client-sony.png" alt="">
+            <img src="img/client-toyota.png" alt="">
+            <img src="img/client-samsung.png" alt="">
+        </div>
+    </div>
+    <!-- testimonials section ends here -->
+
+    <!-- footer starts here -->
+    <div class="footer">
+        <!-- <h2>footer</h2> -->
+        <div class="footer-wrapper">
+            <div class="footer-col">
+                <!-- <h4>TLE</h4> -->
+                <img src="img/tle-logo.png" alt="">
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <h5>About</h5>
+                <h5>Courses</h5>
+                <h5>contact</h5>
+            </div>
+            <div class="footer-col">
+                <h4>Follow TLE</h4>
+                <!-- <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-square" aria-hidden="true"></i> -->
+                <i class="fa-brands fa-facebook"></i>
+                <!-- <i class="fa-brands fa-twitter"></i> -->
+                <i class="fa-brands fa-wordpress"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-discord"></i>
+            </div>
+        </div>
+    </div>
+    <!-- footer ends here -->
+
     <script src="script.js"></script>
 </body>
 </html>
