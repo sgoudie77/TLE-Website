@@ -478,7 +478,7 @@ a {
 .testimonial-card .testimonial-text {
     height: 60%;
     width: 300px;
-    background: white;
+    background: gray;
     padding: 2rem;
     position: absolute;
     bottom: 0;
