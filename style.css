@@ -381,13 +381,14 @@ a {
 /* Categories Styles End Here */
 
 /* News Styles Start Here */
-#news-area {
+#blogs {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: black;
     /* background-color: blue; */
 }
-#news-area h2 {
+#blogs h2 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -395,7 +396,7 @@ a {
 /* News Styles End Here */
 
 /* Blog Styles Start Here */
-#blogs {
+#discord {
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -407,7 +408,7 @@ a {
     background-size: cover;
     background-attachment: fixed;
 }
-#blogs::after {
+#discord::after {
     content: '';
     position: absolute;
     top: 0;
@@ -417,7 +418,7 @@ a {
     /* background-color: rgba(38,38,43,0.7); */
     background-color: var(--clr-dark-overlay);
 }
-#blogs h2 {
+#discord h2 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
@@ -431,6 +432,14 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+#twitter {
+    background-color: var(--clr-dark-blue);
+}
+#twitter h2 {
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 /* social media sections end */
 
